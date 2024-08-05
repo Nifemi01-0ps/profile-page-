@@ -67,29 +67,29 @@ body {
     flex-direction: column;
     gap: 20px;
 }
-.button-row button {
-    padding: 20px;
+.button-row a {
     border-radius: 10px;
     background-color: hsl(0, 0%, 20%);
     color:  hsl(0, 0%, 100%);
     margin-left: 30px;
     margin-right: 30px;
     cursor: pointer;
-    
-    
-}
-.button-row button:hover {
-    background-color: hsl(55, 50%, 50%);
-}
-.button-row button p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-weight: 600;
     font-size: 16px;
-}
-button a {
+    padding: 20px;
     text-decoration: none;
-    color:  hsl(0, 0%, 100%);
+
+    
+    
     
 }
+.button-row a:hover {
+    background-color: hsl(55, 50%, 50%);
+}
+
 .footer {
     display: flex;
     flex-direction: column;
